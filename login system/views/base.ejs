@@ -7,7 +7,12 @@
         <h2 class="font-weight-bold">
             Login System
         </h2>
-        <span id="loginTxt">Login in for the existing user</span>
+        <div id="loginTxt">Already have an account?</div>
+        <% if(locals.logout){%>
+            <span class="alert alert-success text-center ">
+                <%= logout%>
+            </span>
+        <%}%>
     </div>
     <form action="/route/login" method="post" class="pt-3">
         <div class="form-group">
