@@ -1,2 +1,15 @@
 </body>
+<script>
+    function hideAlert() {
+    var alertBox = document.getElementById("alertBox");
+    if (alertBox) {
+        setInterval(function() {
+            alertBox.style.display = "none";
+        }, 2000);
+    }
+}
+
+// Call the hideAlert function when the page loads
+window.onload = hideAlert();
+</script>
 </html>
