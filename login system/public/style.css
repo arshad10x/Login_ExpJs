@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body{
+    color: #fff;
     font-family: 'Open Sans', sans-serif;
     background-image: url(./assets/blob-haikei.png);
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
 }
 
 .center-div{
@@ -16,6 +16,9 @@ body{
     padding:.4em 2em;
 }
 
+.container{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
 form{
     padding: 0 3em;
 }
